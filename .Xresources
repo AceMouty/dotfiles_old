@@ -11,6 +11,7 @@ URxvt.intensityStyles: false
 URxvt.transparent:   false
 URxvt.depth: 24
 
+
 Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
