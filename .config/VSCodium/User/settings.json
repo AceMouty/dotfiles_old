@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "editor.tabSize": 2,
+    "workbench.iconTheme": "vscode-icons", // icon theme
+    "window.menuBarVisibility": "toggle", // window top bar
+    "workbench.activityBar.visible": false, // icon bar on the left
+    "workbench.colorTheme": "Activate SCARLET protocol (beta)"
+}
