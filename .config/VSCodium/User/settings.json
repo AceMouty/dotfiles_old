@@ -3,6 +3,11 @@
     "editor.tabSize": 2,
     "workbench.iconTheme": "vscode-icons", // icon theme
     "window.menuBarVisibility": "toggle", // window top bar
-    "workbench.activityBar.visible": false, // icon bar on the left
-    "workbench.colorTheme": "Activate SCARLET protocol (beta)"
+    // "workbench.activityBar.visible": false, // icon bar on the left
+    "workbench.colorTheme": "Activate SCARLET protocol (beta)",
+    "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
 }
