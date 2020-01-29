@@ -1,13 +1,26 @@
 {
+    // default sapcing based on file type
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    // editor settings
     "terminal.integrated.shell.linux": "/bin/zsh",
     "editor.tabSize": 2,
     "workbench.iconTheme": "vscode-icons", // icon theme
     "window.menuBarVisibility": "toggle", // window top bar
-    // "workbench.activityBar.visible": false, // icon bar on the left
-    "workbench.colorTheme": "Activate SCARLET protocol (beta)",
+    "workbench.activityBar.visible": true,
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402"
+    ],
     "python.formatting.provider": "autopep8",
     "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "window.zoomLevel": 0,
 }
