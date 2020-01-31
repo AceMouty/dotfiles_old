@@ -6,21 +6,26 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
-    // editor settings
+    // general settings
     "terminal.integrated.shell.linux": "/bin/zsh",
     "editor.tabSize": 2,
     "workbench.iconTheme": "vscode-icons", // icon theme
     "window.menuBarVisibility": "toggle", // window top bar
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": true, // left side bar
     "workbench.settings.editor": "json",
     "workbench.settings.useSplitJSON": true,
+    "editor.suggestSelection": "first",
+    "window.zoomLevel": 0,
+    // Python linting config
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=120",
         "--ignore=E402"
     ],
     "python.formatting.provider": "autopep8",
-    "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
-    "window.zoomLevel": 0,
+    // zen mode
+    "zenMode.centerLayout": false,
+    "zenMode.hideTabs": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
 }
