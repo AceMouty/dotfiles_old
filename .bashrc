@@ -138,3 +138,5 @@ ex ()
   fi
 }
 alias config='/usr/bin/git --git-dir=/home/kyle/dotfiles/ --work-tree=/home/kyle'
+
+neofetch
