@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=colors-konsole
+ColorScheme=Glassy
 Font=Operator Mono Medium,14,-1,5,29,0,0,0,0,0,Regular
 LineSpacing=0
 
